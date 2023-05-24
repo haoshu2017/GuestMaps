@@ -1,8 +1,15 @@
+
+###################################################################
+#### This is a R program to map out the GEO location of our guests
+###################################################################
+
+
+
 library(tidyverse)
 library(ggplot2)
 library(maps)
 library(ggmap)
-## director set-up
+## dir set-up
 dir<-"/Users/haoshu/Desktop"
 setwd(dir)
 getwd()
